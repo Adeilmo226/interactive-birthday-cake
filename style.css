@@ -30,35 +30,23 @@ body {
   }
 
   .directions {
-	background-color: #f0e4d0;
-	color: #6A4B18;
-	border: 2px solid #553C13;
-	border-radius: 10px;
-	padding: 20px;
-	font-size: 16px;
-	font-family: Arial, sans-serif;
-	max-width: 300px; /* Ensures the box doesn't get too wide */
-	text-align: left; /* Aligns text for readability */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+    position: fixed; /* Fixed so it stays in view even when scrolling */
+    bottom: 20px; /* Distance from the bottom of the screen */
+    left: 50%; /* Start positioning at the horizontal center */
+    transform: translateX(-50%); /* Center the box horizontally */
+    background-color: #ffe4b5; /* A soft beige color for a warm aesthetic */
+    color: #6A4B18; /* Warm brown text for contrast */
+    border: 3px solid #553C13; /* Dark brown border to match theme */
+    border-radius: 15px; /* Rounded corners for a modern look */
+    padding: 25px; /* Add spacing inside the box */
+    font-size: 18px; /* Larger, more readable font */
+    font-family: 'Arial', sans-serif; /* Elegant font for the text */
+    max-width: 350px; /* Keep the box compact */
+    text-align: center; /* Align the text for better readability */
+    line-height: 1.6; /* Increase line spacing for easier reading */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
 
-  .directions {
-	position: absolute; /* Position it explicitly */
-	top: 150px; /* Adjust the vertical position */
-	left: 20px; /* Position it near the left edge of the screen */
-	background-color: #ffe4b5; /* A soft beige color for a warm aesthetic */
-	color: #6A4B18; /* Warm brown text for contrast */
-	border: 3px solid #553C13; /* Dark brown border to match cake's theme */
-	border-radius: 15px; /* Rounded corners for a modern look */
-	padding: 25px; /* Add spacing inside the box */
-	font-size: 18px; /* Larger, more readable font */
-	font-family: 'Georgia', serif; /* Elegant font for the text */
-	max-width: 350px; /* Keep the box compact */
-	text-align: left; /* Align the text for better readability */
-	line-height: 1.6; /* Increase line spacing for easier reading */
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  }
-  
 
 .candle-count-display {
   text-align: center;
@@ -67,7 +55,7 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 20px;
   color: #6A4B18;
-  background-color: #F0E4D0;
+  background-color: #ffe4b5;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
