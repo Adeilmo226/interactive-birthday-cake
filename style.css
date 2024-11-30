@@ -14,7 +14,7 @@ body {
   
   /* Music Buttons */
   .music-controls button {
-	background-color: #f0e4d0;
+	background-color: #e8d4bd;
 	border: 2px solid #553C13;
 	border-radius: 10px;
 	padding: 10px 20px;
@@ -53,7 +53,7 @@ body {
   margin-top: 150px;
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #6A4B18;
   background-color: #ffe4b5;
   padding: 10px;
