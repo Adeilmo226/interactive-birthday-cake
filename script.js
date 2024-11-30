@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	  }
 	  let average = sum / bufferLength;
   
-	  return average > 60; // Sensitivity threshold
+	  return average > 40; // Sensitivity threshold
 	}
   
 	function blowOutCandles() {
